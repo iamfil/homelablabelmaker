@@ -380,7 +380,12 @@ $( function() {
     $( '#topContainer' ).hide();
     $( 'footer' ).hide();
     setTimeout(function() {
-      $( '#btnRestartApp').show().click();
+      $( '#btnPrintPage' ).show();
+      $( '#btnStartConfigurator' ).show();
+      $( '#instruction' ).show();
+      $( '#btnRestartApp' ).show();
+      $( '#topContainer' ).show();
+      $( 'footer' ).show();
     },100);
   }
 
